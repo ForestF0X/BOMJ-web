@@ -1,0 +1,48 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    oveflow-y: hidden;
+}
+.bg {
+    height: 100%;
+    background: url(../src/img/BG.png) repeat-y #1F1F1F;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.bg2 {
+    height: 100%;
+    background: url(../src/img/1920_1080_Xiomi.jpg) repeat-y #1F1F1F;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    bottom: 100%;
+    left: 100%;
+}
+.maintxt{
+    font-family: Muli-Bold;
+    width: 95%;
+    position: relative;
+    top: 38%;
+    left: 5%;
+    font-size: 55pt;
+    color: white;
+}
+.secondtxt{
+    font-family: Muli-Light;
+    width: 95%;
+    position: relative;
+    top: 41%;
+    left: 5%;
+    font-size: 20pt;
+    color: white;
+}
+.imgbank{
+    position: relative;
+    left: 32%;
+    bottom: 5%;
+}
