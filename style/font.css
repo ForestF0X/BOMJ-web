@@ -1,0 +1,145 @@
+@font-face{
+	font-family:Muli-Black;
+	src: url(../font/Muli-Black.ttf);
+}
+@font-face{
+	font-family:Muli-BlackItalic;
+	src: url(../font/Muli-BlackItalic.ttf);
+}
+@font-face{
+	font-family:Muli-Bold;
+	src: url(../font/Muli-Bold.ttf);
+}
+@font-face{
+	font-family:Muli-BoldItalic;
+	src: url(../font/Muli-BoldItalic.ttf);
+}
+@font-face{
+	font-family:Muli-ExtraBold;
+	src: url(../font/Muli-ExtraBold.ttf);
+}
+@font-face{
+	font-family:Muli-ExtraBoldItalic;
+	src: url(../font/Muli-ExtraBoldItalic.ttf);
+}
+@font-face{
+	font-family:Muli-ExtraLight;
+	src: url(../font/Muli-ExtraLight.ttf);
+}
+@font-face{
+	font-family:Muli-ExtraLightItalic;
+	src: url(../font/Muli-ExtraLightItalic.ttf);
+}
+@font-face{
+	font-family:Muli-Italic;
+	src: url(../font/Muli-Italic.ttf);
+}
+@font-face{
+	font-family:Muli-Light;
+	src: url(../font/Muli-Light.ttf);
+}
+@font-face{
+	font-family:Muli-LightItalic;
+	src: url(../font/Muli-LightItalic.ttf);
+}
+@font-face{
+	font-family:Muli-Regular;
+	src: url(../font/Muli-Regular.ttf);
+}
+@font-face{
+	font-family:Muli-SemiBold;
+	src: url(../font/Muli-SemiBold.ttf);
+}
+@font-face{
+	font-family:Muli-SemiBoldItalic;
+	src: url(../font/Muli-SemiBoldItalic.ttf);
+}
+
+h1{
+	display:block;
+	position:relative;
+	width:100%;
+	font-family:Muli-Bold;
+	color: white;
+	font-size:57px;
+	opacity:0;
+}
+h2{
+	font-family:Muli-ExtraLight;
+	color:white;
+	font-size:16px;
+	display:block;
+	position:relative;
+	top:0;
+	width:72.5%;
+	height:auto;
+	margin:0;
+	margin-bottom:16px
+}
+h3{
+	font-family:Muli-Bold;
+	color:white;
+	font-size:32px;
+	display:block;
+	position:relative;
+	margin:0;
+	width:72.5%;
+	height:auto;
+	margin-bottom:64px;
+}
+h4{
+	font-family:Muli-Regular;
+	color:white;
+	font-size:16px;
+	display:block;
+	position:relative;
+	margin:0;
+	width:72.5%;
+	margin-bottom:24px;
+	height:auto;
+	opacity:0;
+	transition: 0.8s;
+}
+.info{
+	font-family:Muli-Regular;
+	color:white;
+	font-size:16px;
+	display:block;
+	position:relative;
+	margin:0;
+	width:72.5%;
+	height:auto;
+	opacity:0;
+}
+#textbox{
+	top:35%;
+	position:absolute;
+	width:50%;
+	height:100%;
+	text-align:left;
+	left:10%;
+}
+#underH1{
+	top:-1%;
+	font-family:Muli-ExtraLight;
+	color: white;
+	font-size:18px;
+	display:block;
+	position:relative;
+	width:60%;
+	opacity:0;
+}
+.rotate{
+	font-family:Muli-Regular;
+	font-size:20px;
+	color:white;
+	top:7%;
+	position:absolute;
+	margin:0;
+	width:auto;
+	height:auto;
+	display: block;
+	transform: rotate(90deg);
+	z-index:2;
+	opacity:0;
+}
