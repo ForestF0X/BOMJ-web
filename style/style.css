@@ -1,0 +1,184 @@
+html{
+	/*cursor: url('../image/Light_point.png'), auto;*/
+	height: 100%;
+    width: 100%;
+	overflow: hidden;
+}
+body{
+	height: 100%;
+    width: 100%;
+	margin:0;
+	background:#20201f 
+}
+.content{
+	position:absolute;
+	top:50%;
+	z-index:13;
+	width:100%;
+	height:30%;
+	padding:12.5%;
+	transition: 0.8s;
+}
+.page{
+	height: 100%;
+    width: 100%;
+	position:absolute;
+	margin:0;
+}
+.wire{
+	position:relative;
+	top:0;
+	left:0;
+	width:100%;
+}
+.flashlight{
+	position:absolute;
+	width:100%;
+	height:auto;
+}
+.lgh{
+	top:0;
+	right:0;
+	opacity:0;
+}
+.flash{
+	right:65%;
+	top: 105%;
+}
+.plus{
+	position:absolute;
+	width:100%;
+	height:auto;
+	transition: 0.8s;
+}
+.plustr{
+	position:absolute;
+	width:100%;
+	height:auto;
+	opacity:0;
+	transition: 0.8s;
+}
+.img{
+	margin-bottom:10%;
+	position:relative;
+	width:9%;
+	left:33%;
+	height:auto;
+}
+.img2{
+	margin-bottom:10%;
+	position:absolute;
+	width:3%;
+	left:33%;
+	height:auto;
+	z-index:30;
+	opacity:0;
+}
+.cross{
+	transform:rotate(45deg);
+}
+.shadow{
+	background-color:#000;
+	opacity:0.1;
+	z-index:1;
+}
+#pg1{
+	background:url(../image/BG.png) 150% 30% no-repeat;
+}
+#pg2{
+	background:rgba(0,0,0,0.1) url(../image/1920_1080_Xiomi_1.jpg) no-repeat;
+	background-size:100%;
+	left:100%;
+}
+#fgpg2{
+	background:url(../image/1920_1080_Xiomi.jpg) no-repeat;
+	background-size:100%;
+	left:0%;
+	z-index:10;
+	transition:0.8s;
+}
+#pg3{
+	background: linear-gradient(50deg, #181818, #575757) no-repeat;
+	left:200%;
+}
+#wire{
+	width:45%;
+	height:45%;
+	position:absolute;
+	top:200%;
+}
+#wire1,#wire2{
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+}
+#wireimg{
+	z-index:5;
+	height:auto;
+}
+#wirecircle{
+	height:100%;
+	z-index:6;
+	top:50.4%;
+	left:19.8%;
+}
+#lightgroup{
+	top:200%;
+	width:45%;
+	height:45%;
+	position:absolute;
+	right:0;
+}
+#flashlightbg{
+	z-index:2;
+}
+#flashlightfg{
+	z-index:8;
+}
+#flashlightpoint{
+width:10%;
+height:auto;
+position:absolute;
+top:200%;
+left:-49%;
+z-index:12;
+opacity:0;
+}
+#light1, #light2, #light3{
+	z-index:5;
+}
+#verticalmenu1,#verticalmenu2,#verticalmenu3{
+	width:33.33%;
+	height:100%;
+	position:absolute;
+	background-color:rgba(0,0,0,0);
+	top:0;
+	z-index:11;
+	transition: 0.7s;
+}
+#verticalmenu1{
+	left:0;
+}
+#verticalmenu2{
+	left:33.33%;
+}
+#verticalmenu3{
+	right:0;
+}
+#linel,#liner{
+	position:absolute;
+	width:2px;
+	height:100%;
+	top:0;
+	background-color:white;
+	z-index:15;
+	transition:0.8s;
+}
+#linel{
+	left:33.33%;
+}
+#liner{
+	right:33.33%;
+}

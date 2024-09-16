@@ -1,0 +1,47 @@
+@keyframes movelight{
+	from{top:100%;right:60%;}
+	to{top:-28.5%;right:-22%;}
+}
+@keyframes light{
+	from{opacity:0;}
+	to{opacity:1;}
+}
+@keyframes movewire{
+	from{top:100%;right:60%;}
+	to{top:53.9%;right:31.55%;}
+}
+@keyframes minilight{
+	from{opacity:0;}
+	50%{opacity:1;}
+	to{opacity:0;}
+}
+@keyframes texth1{
+	from{opacity:0;top:3%;}
+	to{opacity:1;top:0;}
+}
+@keyframes textunh1{
+	from{opacity:0;top:2%;}
+	to{opacity:1;top:-1%;}
+}
+
+#verticalmenu1:hover,#verticalmenu2:hover,#verticalmenu3:hover{background-color:rgba(0,0,0,0.3);}
+
+.img:hover .plus, .img2:hover .plus{opacity:0;}
+.img:hover .plustr, .img2:hover .plustr{opacity:1;}
+
+#verticalmenu1:hover h4,#verticalmenu2:hover h4,#verticalmenu3:hover h4{opacity:1;}
+
+#verticalmenu1:hover .content,#verticalmenu2:hover .content,#verticalmenu3:hover .content{top:40%;}
+
+#wire{animation:movewire 0.5s ease-out 3s forwards}
+
+#lightgroup{animation:movelight 1s ease-out 1s forwards}
+
+#light1{animation:light 0.8s ease 2.2s forwards}
+#light2{animation:light 0.8s ease 2.1s forwards}
+#light3{animation:light 0.8s ease 2s forwards}
+
+#flashlightpoint{animation:minilight 1.8s linear 3.9s infinite}
+
+h1{animation:texth1 1s ease-out 0.2s forwards}
+#underH1{animation:textunh1 1s ease-out 0.6s forwards}
